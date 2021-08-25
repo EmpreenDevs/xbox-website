@@ -20,6 +20,7 @@ body {
   left: -15%;
   top: -10%;
   height: 100%;
+  z-index: -9999999;
 }
 
 .bg img {
@@ -29,6 +30,7 @@ body {
   left: -90px;
   top: 18%;
   transform: rotateZ(40deg);
+  z-index: -9999999;
 }
 
 .header {
@@ -56,7 +58,108 @@ body {
 
 .header .menu a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: 700;
   font-style: italic;
+}
+
+main {
+  display: flex;
+}
+
+.left {
+  width: 60%;
+  height: 100vh;
+}
+
+.right {
+  width: 40%;
+  height: 100vh;
+}
+
+.titles {
+  padding: 14% 0px 4% 100px;
+}
+
+.titles h1 {
+  font-size: 6rem;
+  color: black;
+}
+
+.titles h2 {
+  font-size: 6rem;
+  color: #32d257;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 55%;
+}
+
+.subtitle {
+  padding: 0px 0px 1% 100px;
+  width: 535px;
+}
+
+.subtitle p {
+  font-weight: 500;
+  font-style: italic;
+  color: #2e2e2e;
+  font-size: 1.4rem;
+}
+
+.specs {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 0px 3% 100px;
+  width: 600px;
+  height: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.specs .spec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.specs .spec h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.specs .spec h5 strong {
+  font-size: 40px;
+  padding: 10px;
+}
+
+.specs .spec p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.specs .spec img {
+  height: 44px;
+  padding-bottom: 4px;
+}
+
+.right img {
+  height: 450px;
+  margin-top: 20%;
+  margin: 20% 5% 0 5%;
+}
+
+.right a {
+  padding-top: 5%;
+  margin-left: 5%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.right a svg {
+  margin-left: 8px;
+  height: 25px;
 }
