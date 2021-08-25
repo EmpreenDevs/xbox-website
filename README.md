@@ -2,7 +2,7 @@
 [![N|Solid](https://i.imgur.com/2dzkWT8.png)](https://www.youtube.com/watch?v=PX2ok76cc4g)
 
 ## 
-[![N|Solid](https://i.imgur.com/16k6sCr.png)](https://www.youtube.com/watch?v=PX2ok76cc4g)
+[![N|Solid](https://i.imgur.com/QdCDEdN.png)](https://www.youtube.com/watch?v=PX2ok76cc4g)
 
 #### Softwares and Technology
 - ADOBE XD
