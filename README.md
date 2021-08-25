@@ -1,4 +1,4 @@
-# Xbox Series S 
+# Xbox Series S - Landing Page
 [![N|Solid](https://i.imgur.com/2dzkWT8.png)](https://www.youtube.com/watch?v=PX2ok76cc4g)
 
 ## 
